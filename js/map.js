@@ -42,6 +42,7 @@
 
 		var marker = L.marker([object.Geolocatie[0],object.Geolocatie[1]], {
 			'icon': icon, 
+			riseOnHover: true
 		});
 
 		//show details on click
