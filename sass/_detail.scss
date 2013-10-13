@@ -1,0 +1,93 @@
+#detail{
+	
+	background: white;
+	position: absolute;
+	width: 70%;
+	height: 50%;
+	bottom: -70%;
+	z-index: 10;
+	left: 15%;
+
+	padding-top: 15px;
+	padding-left: 15px;
+
+	@include transition(all 1s ease);
+
+	&.show{
+		bottom: 0;
+		@include box-shadow(0px 9px 28px 10px rgba(0, 0, 0, 0.32));
+	}
+
+	.close{
+		position: absolute;
+		top: 15px;
+		right: 20px;
+		color: $font;
+		opacity: 0.7;
+		font-family: 'icons';
+		font-size: 2em;
+
+		cursor: pointer;
+
+		@include transition(all 0.5s ease);
+
+		&:before{
+			content: ' \e823 ';
+		}
+
+		&:hover{
+			opacity: 1;
+			color: $prime;
+		}
+	}
+
+	.adres{
+
+		span.icon{
+			font-family: 'icons';
+			font-size: 1.16em;
+			color: $prime;
+			margin-right: 5px;
+
+			&:before{
+				content: '\e842';
+			}
+		}
+
+		span.text{
+			color: $light;
+		}
+
+
+	}
+
+	h3{
+		font-weight: bold;
+		color: $font;
+		font-size: 2em;
+		margin-top: 7px;
+
+		span{
+			color: $prime;
+			text-transform: lowercase;
+		}
+	}
+
+	.text{
+		color: $light;
+		margin-top: 7px;
+	}
+
+	.icon-large{
+		background-image: url('../assets/icon-tree.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+
+		position: absolute;
+		right: 50px;
+		top: 25%;
+		width: 50%;
+		bottom: 25%;
+	}
+}

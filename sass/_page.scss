@@ -1,0 +1,60 @@
+$nrPages: 3;
+
+#pages{
+	position: absolute;
+	top: 80px;
+	right: -$menuWidth;
+	width: $menuWidth;
+	bottom: 0;
+	background: #333;
+	overflow: hidden;
+
+	z-index: 99;
+
+	@include transition(right 1s ease);
+
+	&.show{
+		right: 0;
+		@include box-shadow(0px 9px 28px 10px rgba(0, 0, 0, 0.32));
+	}
+
+	.close{
+		position: absolute;
+		top: 15px;
+		right: 20px;
+		color: white;
+		opacity: 0.7;
+		font-family: 'icons';
+		font-size: 2em;
+
+		cursor: pointer;
+
+		@include transition(all 0.5s ease);
+
+		&:before{
+			content: '\e811';
+		}
+
+		&:hover{
+			opacity: 1;
+			color: $prime;
+		}
+	}
+}
+
+.page{
+	width: $menuWidth;
+	height: 100%;
+	color: white;
+	float: left;
+	padding: 15px;
+
+	@include box-sizing(border-box);
+}
+
+.container{
+	position: relative;
+	left: 0;
+	height: 100%;
+	width: $menuWidth * $nrPages + 1px;
+}

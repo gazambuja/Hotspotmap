@@ -1,0 +1,172 @@
+var hotspots = [
+  {
+    "Plaats":"Smalste huis",
+    "Decibel":null,
+    "Wifi signalen":null,
+    "Bereik":0,
+    "Foursquare check-ins":null,
+    "Bevolkingsdichtheid":8065,
+    "postcode" : 1012,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie": [52.37823, 4.89380],
+    "order": {
+        "rust": 1,
+        "groen": 1,
+        "connectiviteit": 5,
+        "hipheid": 5
+    }
+  }, 
+  {
+    "Plaats":"Scheefste Toren",
+    "Decibel":43,
+    "Wifi signalen":4,
+    "Bereik":3,
+    "Foursquare check-ins":4,
+    "Bevolkingsdichtheid":8535,
+    "postcode" : 9781,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie": [53.30245, 6.59873],
+     "order": {
+        "rust": 4,
+        "groen": 3,
+        "connectiviteit": 1,
+        "hipheid": 1
+    }
+  },
+  {
+    "Plaats":"Langste brug",
+    "Decibel":84,
+    "Wifi signalen":0,
+    "Bereik":5,
+    "Foursquare check-ins":0,
+    "Bevolkingsdichtheid":9265,
+    "postcode" : 4301,
+    "Cafe's binnen 500 meter":"Restaurant De Zeelandbrug, weg naar de Val 10, 4301 RM Zierikzee‎",
+  "Geolocatie":[51.62792, 3.91250],
+     "order": {
+        "rust": 1,
+        "groen": 1,
+        "connectiviteit": 1,
+        "hipheid": 3
+    }
+  },
+  {
+    "Plaats":"Dikste boom",
+    "Decibel":30,
+    "Wifi signalen":1,
+    "Bereik":3,
+    "Foursquare check-ins":null,
+    "Bevolkingsdichtheid":3615,
+    "postcode" : 6573,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie":[51.828373, 5.925803],
+     "order": {
+        "rust": 5,
+        "groen": 5,
+        "connectiviteit": 1,
+        "hipheid": 1
+    }
+  },
+  {
+    "Plaats":"Kleinste dorp",
+    "Decibel":56,
+    "Wifi signalen":1,
+    "Bereik":3,
+    "Foursquare check-ins":null,
+    "Bevolkingsdichtheid":105,
+    "postcode" : 6575,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie":  [51.84105, 5.91812],
+     "order": {
+        "rust": 5,
+        "groen": 3,
+        "connectiviteit": 2,
+        "hipheid": 1
+    }
+  },
+  {
+    "Plaats":"Stilste plek",
+    "Decibel":30,
+    "Wifi signalen":0,
+    "Bereik":2,
+    "Foursquare check-ins":0,
+    "Bevolkingsdichtheid":4595,
+    "postcode" : 3951,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie": [52.04802, 5.36628],
+     "order": {
+        "rust": 5,
+        "groen": 5,
+        "connectiviteit": 1,
+        "hipheid": 1
+    }
+  },
+  {
+    "Plaats":"Hoogste gebouw",
+    "Decibel":82,
+    "Wifi signalen":18,
+    "Bereik":5,
+    "Foursquare check-ins":20,
+    "Bevolkingsdichtheid":14475,
+    "postcode" : 3072,
+    "Cafe's binnen 500 meter":"The Smell of Coffee, Wilhelminaplein 41, 3072 DE Rotterdam. Cafe Rijnvaart, Prins Hendrikkade 107A, 3071 KJ ",
+  "Geolocatie": [51.90882, 4.49343],
+     "order": {
+        "rust": 1,
+        "groen": 1,
+        "connectiviteit": 5,
+        "hipheid": 4
+    }
+  },
+  {
+    "Plaats":"Laagste plek",
+    "Decibel":74,
+    "Wifi signalen":1,
+    "Bereik":2,
+    "Foursquare check-ins":4,
+    "Bevolkingsdichtheid":8020,
+    "postcode" : 2924,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie":[51.986322, 4.630075],
+     "order": {
+        "rust": 2,
+        "groen": 2,
+        "connectiviteit": 3,
+        "hipheid": 2
+    }
+  },
+  {
+    "Plaats":"Oudste stenen huis",
+    "Decibel":42,
+    "Wifi signalen":4,
+    "Bereik":2,
+    "Foursquare check-ins":null,
+    "Bevolkingsdichtheid":7690,
+    "postcode" : 7411,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie":[52.25289, 6.15552],
+     "order": {
+        "rust": 3,
+        "groen": 1,
+        "connectiviteit": 3,
+        "hipheid": 3
+    }
+  },
+  {
+    "Plaats":"Nieuwste molen",
+    "Decibel":73,
+    "Wifi signalen":15,
+    "Bereik":5,
+    "Foursquare check-ins":10,
+    "Bevolkingsdichtheid":4385,
+    "postcode" : 3111,
+    "Cafe's binnen 500 meter":null,
+  "Geolocatie":[51.91696, 4.39882],
+     "order": {
+        "rust": 4,
+        "groen": 4,
+        "connectiviteit": 1,
+        "hipheid": 1
+    }
+  }
+]

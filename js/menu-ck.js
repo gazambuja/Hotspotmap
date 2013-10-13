@@ -1,0 +1,1 @@
+(function(){window.menu={};menu.init=function(){menu.$=$("header ul");menu.$.find("li").click(function(){$this=$(this);menu.launch($this.attr("rel"))})};menu.launch=function(e){}})();

@@ -1,0 +1,333 @@
+/* line 17, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+@font-face {
+  font-family: 'icons';
+  src: url("../assets/fonts/icons.eot?10523127");
+  src: url("../assets/fonts/icons.eot?10523127#iefix") format("embedded-opentype"), url("../assets/fonts/icons.woff?10523127") format("woff"), url("../assets/fonts/icons.ttf?10523127") format("truetype"), url("../assets/fonts/icons.svg?10523127#icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 11, ../sass/style.scss */
+body {
+  font-family: "helvetica", "arial", sans-serif;
+  font-size: 12px;
+  background: black;
+  overflow: hidden; }
+
+/* line 2, ../sass/_header.scss */
+header {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: white;
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 18, ../sass/_header.scss */
+  header img.logomark {
+    float: left;
+    padding-left: 130px;
+    padding-top: 18px;
+    margin-right: 20px;
+    width: 51px;
+    height: 44px; }
+  /* line 28, ../sass/_header.scss */
+  header h1 {
+    padding-top: 25px;
+    color: #62c715;
+    font-weight: bold;
+    font-size: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  /* line 40, ../sass/_header.scss */
+  header h2 {
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #333333; }
+  /* line 48, ../sass/_header.scss */
+  header ul {
+    position: absolute;
+    right: 130px;
+    top: 50%;
+    margin-top: -0.5em; }
+  /* line 55, ../sass/_header.scss */
+  header li {
+    float: left;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 1.16em;
+    color: #333333;
+    -webkit-transition: 0.5s color ease;
+    -moz-transition: 0.5s color ease;
+    -o-transition: 0.5s color ease;
+    transition: 0.5s color ease;
+    cursor: pointer; }
+    /* line 67, ../sass/_header.scss */
+    header li.active {
+      color: #62c715; }
+    /* line 71, ../sass/_header.scss */
+    header li:hover {
+      color: #62c715; }
+
+/* line 1, ../sass/_map.scss */
+#map {
+  width: 100%;
+  height: 100%; }
+
+/* line 6, ../sass/_map.scss */
+html, body {
+  -webkit-perspective: 1500px;
+  -moz-perspective: 1500px;
+  -ms-perspective: 1500px;
+  -o-perspective: 1500px;
+  perspective: 1500px;
+  width: 100%;
+  height: 100%; }
+
+/* line 12, ../sass/_map.scss */
+#mapContainer {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0; }
+  /* line 23, ../sass/_map.scss */
+  #mapContainer.detail {
+    -webkit-transform: rotateX(-10deg);
+    -moz-transform: rotateX(-10deg);
+    -ms-transform: rotateX(-10deg);
+    -o-transform: rotateX(-10deg);
+    transform: rotateX(-10deg); }
+    /* line 26, ../sass/_map.scss */
+    #mapContainer.detail .gradient {
+      opacity: 0.5; }
+  /* line 31, ../sass/_map.scss */
+  #mapContainer.menu {
+    left: -300px; }
+  /* line 35, ../sass/_map.scss */
+  #mapContainer .gradient {
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000000);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), #000000);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #000000);
+    background: linear-gradient(top, rgba(0, 0, 0, 0), #000000);
+    z-index: 2;
+    position: absolute;
+    bottom: -1px;
+    height: 50%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease; }
+
+/* line 1, ../sass/_detail.scss */
+#detail {
+  background: white;
+  position: absolute;
+  width: 70%;
+  height: 50%;
+  bottom: -70%;
+  z-index: 10;
+  left: 15%;
+  padding-top: 15px;
+  padding-left: 15px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  /* line 16, ../sass/_detail.scss */
+  #detail.show {
+    bottom: 0;
+    -webkit-box-shadow: 0px 9px 28px 10px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 9px 28px 10px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 9px 28px 10px rgba(0, 0, 0, 0.32); }
+  /* line 21, ../sass/_detail.scss */
+  #detail .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #333333;
+    opacity: 0.7;
+    font-family: 'icons';
+    font-size: 2em;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    /* line 34, ../sass/_detail.scss */
+    #detail .close:before {
+      content: ' \e823 '; }
+    /* line 38, ../sass/_detail.scss */
+    #detail .close:hover {
+      opacity: 1;
+      color: #62c715; }
+  /* line 46, ../sass/_detail.scss */
+  #detail .adres span.icon {
+    font-family: 'icons';
+    font-size: 1.16em;
+    color: #62c715;
+    margin-right: 5px; }
+    /* line 52, ../sass/_detail.scss */
+    #detail .adres span.icon:before {
+      content: '\e842'; }
+  /* line 57, ../sass/_detail.scss */
+  #detail .adres span.text {
+    color: #666666; }
+  /* line 64, ../sass/_detail.scss */
+  #detail h3 {
+    font-weight: bold;
+    color: #333333;
+    font-size: 2em;
+    margin-top: 7px; }
+    /* line 70, ../sass/_detail.scss */
+    #detail h3 span {
+      color: #62c715;
+      text-transform: lowercase; }
+  /* line 76, ../sass/_detail.scss */
+  #detail .text {
+    color: #666666;
+    margin-top: 7px; }
+  /* line 81, ../sass/_detail.scss */
+  #detail .icon-large {
+    background-image: url("../assets/icon-tree.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    right: 50px;
+    top: 25%;
+    width: 50%;
+    bottom: 25%; }
+
+/* line 3, ../sass/_page.scss */
+#pages {
+  position: absolute;
+  top: 80px;
+  right: -300px;
+  width: 300px;
+  bottom: 0;
+  background: #333;
+  overflow: hidden;
+  z-index: 99;
+  -webkit-transition: right 1s ease;
+  -moz-transition: right 1s ease;
+  -o-transition: right 1s ease;
+  transition: right 1s ease; }
+  /* line 16, ../sass/_page.scss */
+  #pages.show {
+    right: 0;
+    -webkit-box-shadow: 0px 9px 28px 10px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 0px 9px 28px 10px rgba(0, 0, 0, 0.32);
+    box-shadow: 0px 9px 28px 10px rgba(0, 0, 0, 0.32); }
+  /* line 21, ../sass/_page.scss */
+  #pages .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    opacity: 0.7;
+    font-family: 'icons';
+    font-size: 2em;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    /* line 34, ../sass/_page.scss */
+    #pages .close:before {
+      content: '\e811'; }
+    /* line 38, ../sass/_page.scss */
+    #pages .close:hover {
+      opacity: 1;
+      color: #62c715; }
+
+/* line 45, ../sass/_page.scss */
+.page {
+  width: 300px;
+  height: 100%;
+  color: white;
+  float: left;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 55, ../sass/_page.scss */
+.container {
+  position: relative;
+  left: 0;
+  height: 100%;
+  width: 901px; }
