@@ -7,9 +7,10 @@
 	map.lon = 5.27069091796875;
 	map.zoom = 8
 	map.iconSizes = [
-		[175, 175],
+		// [175, 175],
 		[130, 130],
 		[110, 110],
+		[80, 80],
 		[70, 70],
 		[45, 45]
 	];
@@ -32,6 +33,8 @@
 
 	map.addSpot = function(object){
 
+		//http://jsfiddle.net/Qh9X5/154/
+
 		var iconSize = map.getIconSize(object.order.rust);
 		var icon = L.icon({
 		    iconUrl: 'assets/marker.png',
@@ -40,7 +43,7 @@
 		    iconAnchor:   [iconSize[0]/2, iconSize[1]/2], // center it
 		});
 
-		var marker = L.marker([object.Geolocatie[0],object.Geolocatie[1]], {
+		var marker = L.marker([object.geolocatie[0],object.geolocatie[1]], {
 			'icon': icon, 
 			riseOnHover: true
 		});
