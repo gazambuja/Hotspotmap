@@ -9,6 +9,7 @@ var hotspots = [
     "postcode" : 1012,
     "cafe":155,
     "geolocatie": [52.37823,4.89380],
+    "image": "icon-house",
     "order": {
         "rust": 10,
         "groen": 7,
@@ -26,6 +27,7 @@ var hotspots = [
     "postcode" : 9781,
     "cafe": 7,
     "geolocatie": [53.301255,6.602852],
+    "image": "icon-pisa",
      "order": {
         "rust": 4,
         "groen": 8,
@@ -43,6 +45,7 @@ var hotspots = [
     "postcode" : 4301,
     "cafe":1,
     "geolocatie": [51.62792,3.91250],
+    "image": "icon-bridge",
      "order": {
         "rust": 9,
         "groen": 9,
@@ -60,6 +63,7 @@ var hotspots = [
     "postcode" : 6573,
     "cafe":1,
     "geolocatie": [51.828373,5.925803],
+    "image": "icon-tree",
      "order": {
         "rust": 2,
         "groen": 2,
@@ -77,6 +81,7 @@ var hotspots = [
     "postcode" : 6575,
     "cafe":0,
     "geolocatie": [51.84105,5.91812],
+    "image": "icon-village",
      "order": {
         "rust": 5,
         "groen": 1,
@@ -94,6 +99,7 @@ var hotspots = [
     "postcode" : 3951,
     "cafe":0,
     "geolocatie": [52.04802,5.36628],
+    "image": "icon-db",
      "order": {
         "rust": 1,
         "groen": 3,
@@ -111,6 +117,7 @@ var hotspots = [
     "postcode" : 3072,
     "cafe":13,
     "geolocatie": [51.90882,4.49343],
+    "image": "icon-skyscraper",
     "order": {
         "rust": 8,
         "groen": 10,
@@ -128,6 +135,7 @@ var hotspots = [
     "postcode" : 2924,
     "cafe":0,
     "geolocatie": [51.986322,4.630075],
+    "image": "icon-nap",
      "order": {
         "rust": 7,
         "groen": 6,
@@ -145,6 +153,7 @@ var hotspots = [
     "postcode" : 7411,
     "cafe":34,
     "geolocatie": [52.25289,6.15552],
+    "image": "icon-stone-house",
      "order": {
         "rust": 3,
         "groen": 5,
@@ -162,6 +171,7 @@ var hotspots = [
     "postcode" : 3111,
     "cafe":55,
     "geolocatie": [51.91696,4.39882],
+    "image": "icon-windmill",
      "order": {
         "rust": 6,
         "groen": 4,
