@@ -22,7 +22,22 @@
 		map.$c.addClass('detail');
 		detail.$.addClass('show');
 
-		detail.$.find('h3').html('Het <span>' + object.Plaats + '</span> van Nederland');
+		//naam
+		var plaats = object.plaats;
+		var lidwoord = plaats.split(' ')[0];
+		plaats = plaats.substr(plaats.indexOf(" ") + 1);
+
+		//title
+		detail.$.find('h3').html(lidwoord + ' <span>' + plaats + '</span> van Nederland');
+
+		//addres
+		// detail.$.find('.adres .text').text(object.adres);
+
+		//text
+		// detail.$.find('div.text').text(object.text);
+
+		//image
+		detail.$.find('.icon-large').css('background-image', 'url(assets/' + object.image + '.svg)');
 	}
 
 	detail.close = function(){
