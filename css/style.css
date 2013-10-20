@@ -150,6 +150,7 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: hidden;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -159,20 +160,24 @@ html, body {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0; }
-  /* line 23, ../sass/_map.scss */
+  /* line 24, ../sass/_map.scss */
   #mapContainer.detail {
     -webkit-transform: rotateX(-10deg);
     -moz-transform: rotateX(-10deg);
     -ms-transform: rotateX(-10deg);
     -o-transform: rotateX(-10deg);
     transform: rotateX(-10deg); }
-    /* line 26, ../sass/_map.scss */
+    /* line 27, ../sass/_map.scss */
     #mapContainer.detail .gradient {
       opacity: 0.5; }
-  /* line 31, ../sass/_map.scss */
+    /* line 31, ../sass/_map.scss */
+    #mapContainer.detail #legenda {
+      right: -230px;
+      opacity: 0; }
+  /* line 37, ../sass/_map.scss */
   #mapContainer.menu {
     left: -300px; }
-  /* line 35, ../sass/_map.scss */
+  /* line 41, ../sass/_map.scss */
   #mapContainer .gradient {
     background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000000);
@@ -191,6 +196,52 @@ html, body {
     -moz-transition: opacity 1s ease;
     -o-transition: opacity 1s ease;
     transition: opacity 1s ease; }
+  /* line 56, ../sass/_map.scss */
+  #mapContainer #legenda {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 110px;
+    height: 90px;
+    background: white;
+    padding: 15px;
+    z-index: 5;
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+    /* line 69, ../sass/_map.scss */
+    #mapContainer #legenda li {
+      line-height: 20px;
+      cursor: pointer; }
+      /* line 73, ../sass/_map.scss */
+      #mapContainer #legenda li.active {
+        font-weight: bold; }
+      /* line 77, ../sass/_map.scss */
+      #mapContainer #legenda li.groen {
+        margin-bottom: 10px; }
+      /* line 81, ../sass/_map.scss */
+      #mapContainer #legenda li.rust i {
+        background-color: #3d7cef; }
+      /* line 82, ../sass/_map.scss */
+      #mapContainer #legenda li.groen i {
+        background-color: #62c715; }
+      /* line 83, ../sass/_map.scss */
+      #mapContainer #legenda li.hipheid i {
+        background-color: #cf4747; }
+      /* line 84, ../sass/_map.scss */
+      #mapContainer #legenda li.connectivity i {
+        background-color: #ea7a58; }
+    /* line 87, ../sass/_map.scss */
+    #mapContainer #legenda i {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-color: black;
+      position: relative;
+      top: 2px;
+      margin-right: 10px; }
 
 /* line 1, ../sass/_detail.scss */
 #detail {
@@ -251,16 +302,17 @@ html, body {
     font-weight: bold;
     color: #333333;
     font-size: 2em;
-    margin-top: 7px; }
-    /* line 70, ../sass/_detail.scss */
+    margin-top: 7px;
+    text-transform: capitalize; }
+    /* line 71, ../sass/_detail.scss */
     #detail h3 span {
       color: #62c715;
       text-transform: lowercase; }
-  /* line 76, ../sass/_detail.scss */
+  /* line 77, ../sass/_detail.scss */
   #detail .text {
     color: #666666;
     margin-top: 7px; }
-  /* line 81, ../sass/_detail.scss */
+  /* line 82, ../sass/_detail.scss */
   #detail .icon-large {
     background-image: url("../assets/icon-tree.svg");
     background-size: contain;
@@ -295,8 +347,8 @@ html, body {
   /* line 21, ../sass/_page.scss */
   #pages .close {
     position: absolute;
-    top: 15px;
-    right: 20px;
+    top: 2px;
+    right: 9px;
     color: white;
     opacity: 0.7;
     font-family: 'icons';
@@ -320,12 +372,15 @@ html, body {
   height: 100%;
   color: white;
   float: left;
-  padding: 15px;
+  padding: 25px;
+  padding-top: 10px;
+  line-height: 14px;
+  border-top: 25px black solid;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 55, ../sass/_page.scss */
+/* line 58, ../sass/_page.scss */
 .container {
   position: relative;
   left: 0;
