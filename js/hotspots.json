@@ -1,12 +1,12 @@
 var hotspots = [
   {
-    "plaats":"het smalste huis",
+    "plaats":"Het Smalste Huis",
     "decibel":87,
     "wifi":3,
     "bereik":5,
     "foursquare":null,
     "bevolkingsdichtheid":8065,
-    "postcode" : 1012,
+    "postcode" : "Singel 7, 1012 VC, Amsterdam, Noord-Holland",
     "cafe":155,
     "geolocatie": [52.37823,4.89380],
     "image": "icon-house",
@@ -15,16 +15,17 @@ var hotspots = [
         "groen": 7,
         "connectiviteit":5,
         "hipheid": 1
-    }
+    },
+    "tekst": "Op de Singel nummer 7 in Amsterdam kan men het smalste huis van de wereld vinden. Met een breedte van net één meter is het huis niet veel breder dan de voordeur zelf. Vroeger moest er voor de breedte van het huis belasting worden betaald, daarom zijn veel woningen in Amsterdam zo smal. Een ander voorbeeld van een smal huis is bijvoorbeeld te bezoeken aan de Kloveniersburgwal te nummer 26. Dit huis heet ook wel het 'Kleine Trippenhuis'. Aan de overkant staat namelijk het 'Trippenhuis' en het verhaal gaat dat de koetsier tegen de heer Trip riep dat hij al blij zou zijn met een huis ter breedte van zijn voordeur."
   }, 
   {
-    "plaats":"de scheefste toren",
+    "plaats":"De Scheefste Toren",
     "decibel":43,
     "wifi":4,
     "bereik":3,
     "foursquare":4,
     "bevolkingsdichtheid":8535,
-    "postcode" : 9781,
+    "postcode" : "Plantsoen 2, 9781 HL, Bedum, Groningen",
     "cafe": 7,
     "geolocatie": [53.301255,6.602852],
     "image": "icon-pisa",
@@ -33,16 +34,17 @@ var hotspots = [
         "groen": 8,
         "connectiviteit": 3,
         "hipheid": 5
-    }
+    },
+    "tekst": "In een klein dorpje genaamd Bedum in Groningen is de scheefste toren van Nederland te vinden. De Walfridustoren of in de volksmond  'de Schaive toren'. De toren is 35 meter hoog en staat 4,2 graden uit het lood. Anders gezegd de punt van de toren staat 2,61 meter verder dan de voet van de toren. De toren is onderdeel van een kerk en in deze kerk zijn ook verschillende vloeren en muren scheef."
   },
   {
-    "plaats":"de langste brug",
+    "plaats":"De Langste Brug",
     "decibel":84,
     "wifi":0,
     "bereik":5,
     "foursquare":0,
     "bevolkingsdichtheid":9265,
-    "postcode" : 4301,
+    "postcode" : "Zeelandbrug, Schouwen-Duiveland, Zeeland",
     "cafe":1,
     "geolocatie": [51.62792,3.91250],
     "image": "icon-bridge",
@@ -51,16 +53,17 @@ var hotspots = [
         "groen": 9,
         "connectiviteit": 9,
         "hipheid": 6
-    }
+    },
+    "tekst": "Hou je van lawaai, cement, water en geen verbinding met de buitenwereld dan is de langste brug van Nederland echt iets voor jou! De Zeelandbrug (vroeger de Oosterscheldebrug) genaamd ligt tussen Schouwen-Duivenland en Noord-Beveland (Zeeland) en overbrugt de Oosterschelde. De brug is 5022 meter lang en elke 95 meter staat één van de 54 pijlers die de brug omhoog houden. Tot 1993 moest je nog tol betalen om de brug over te mogen, maar dat is dus gelukkig afgeschaft."
   },
   {
-    "plaats":"de dikste boom",
+    "plaats":"De Dikste Boom",
     "decibel":30,
     "wifi":1,
     "bereik":3,
     "foursquare":null,
     "bevolkingsdichtheid":3615,
-    "postcode" : 6573,
+    "postcode" : "Rijksstraatweg 191, 6573 CP, Beek-Ubbergen, Gelderland",
     "cafe":1,
     "geolocatie": [51.828373,5.925803],
     "image": "icon-tree",
@@ -69,16 +72,17 @@ var hotspots = [
         "groen": 2,
         "connectiviteit": 6,
         "hipheid": 7
-    }
+    },
+    "tekst": "Rustig en groen is het hier zeker. De dikste boom van Nederland staat in het Kastanjedal in Beek (Gelderland). Met een omtrek van 8.33 meter kan je er een flink rondje omheen lopen. Helaas kan dit niet aangezien er een mooi hek om de boom staat om deze te beschermen. De leeftijd van de boom wordt geschat rond de 350 jaar. De boom heeft een groot hol gat waar zo een aantal kabouters kunnen leven. Vandaar ook de bijnaam de Kabouterboom."
   },
   {
-    "plaats":"het kleinste dorp",
+    "plaats":"Het Kleinste Dorp",
     "decibel":56,
     "wifi":1,
     "bereik":3,
     "foursquare":null,
     "bevolkingsdichtheid":105,
-    "postcode" : 6575,
+    "postcode" : "Persingen, Gelderland",
     "cafe":0,
     "geolocatie": [51.84105,5.91812],
     "image": "icon-village",
@@ -87,16 +91,17 @@ var hotspots = [
         "groen": 1,
         "connectiviteit": 7,
         "hipheid": 10
-    }
+    },
+    "tekst": "Hier is het van alle Hotspots het groenste, het kleinste dorp van Nederland. Dit dorp genaamd Persingen ligt in de gemeente Ubbergen te Gelderland. In dit dorp wonen 89 mensen in 34 woningen. Hiermee is het het kleinste kerkdorp van Nederland."
   },
   {
-    "plaats":"de stilste plek",
+    "plaats":"De Stilste Plek",
     "decibel":30,
     "wifi":0,
     "bereik":2,
     "foursquare":0,
     "bevolkingsdichtheid":4595,
-    "postcode" : 3951,
+    "postcode" : "Utrechtse Heuvelrug, Utrecht",
     "cafe":0,
     "geolocatie": [52.04802,5.36628],
     "image": "icon-db",
@@ -105,16 +110,17 @@ var hotspots = [
         "groen": 3,
         "connectiviteit": 10,
         "hipheid": 9
-    }
+    },
+    "tekst": "Als rust liefhebber is deze plek echt iets voor jou. Als je een goed moment uitkiest komt er in een uur tijd niemand voorbij en ben je even alleen op de wereld. Vlakbij Maarn in Utrecht ligt namelijk de stilste plek van Nederland. Op de achtergrond hoor je misschien heel zachtjes de A12 voorbij scheuren maar voor de rest is het er echt stil. Neem als je er heen wilt gaan alleen wel een mountainbike mee, de weg erna toe is namelijk al een belevenis op zichzelf."
   },
   {
-    "plaats":"het hoogste gebouw",
+    "plaats":"Het Hoogste Gebouw",
     "decibel":82,
     "wifi":18,
     "bereik":5,
     "foursquare":20,
     "bevolkingsdichtheid":14475,
-    "postcode" : 3072,
+    "postcode" : "Wilhelminakade 1, 3072 AP, Rotterdam, Zuid-Holland",
     "cafe":13,
     "geolocatie": [51.90882,4.49343],
     "image": "icon-skyscraper",
@@ -123,16 +129,17 @@ var hotspots = [
         "groen": 10,
         "connectiviteit": 1,
         "hipheid": 4
-    }
+    },
+    "tekst": "De meeste connectiviteit vind je bij het hoogste gebouw van Nederland, de Maastoren. De Maastoren in Rotterdam (Zuid-Holland) is met 161,2 meter het hoogste gebouw in Nederland. Reken je daar de dakopbouw en de zendmast bij op kom je tot een hoogte van 182.25 meter. Het gebouw is gebouwd van 2006 tot 2009 en staat vlak aan het water. Mocht je trouwens het gebouw in willen en naar de top willen klimmen krijg je bij aankomst een flinke domper, je komt niet verder dan de hoogsteverdieping van de parkeerplaats die in het gebouw te vinden is."
   },
   {
-    "plaats":"de laagste plek",
+    "plaats":"De Laagste Plek",
     "decibel":74,
     "wifi":1,
     "bereik":2,
     "foursquare":4,
     "bevolkingsdichtheid":8020,
-    "postcode" : 2924,
+    "postcode" : "Parallelweg Zuid, 2914 LE, Nieuwerkerk aan den IJssel, Zuid-Holland",
     "cafe":0,
     "geolocatie": [51.986322,4.630075],
     "image": "icon-nap",
@@ -141,16 +148,17 @@ var hotspots = [
         "groen": 6,
         "connectiviteit": 8,
         "hipheid": 8
-    }
+    },
+    "tekst": "Het laagste punt van Nederland bevind zich in de eendenkooi, vlakbij de Zuidplaspolder. Een plaats in de buurt is Nieuwerkerk aan den IJssel, gemeente Zuidplas. Het laagste punt ligt op -6,76 NAP, mocht je er dus zijn wanneer er een dijk doorbreekt moet je 7 meter naar boven zwemmen. Wat zijn we dan toch blij met al die dijken en waterkeringen in Nederland."
   },
   {
-    "plaats":"het oudste stenen huis",
+    "plaats":"Het Oudste Stenen Huis",
     "decibel":42,
     "wifi":4,
     "bereik":2,
     "foursquare":null,
     "bevolkingsdichtheid":7690,
-    "postcode" : 7411,
+    "postcode" : "Sandrasteeg 8, 7411 KS, Deventer, Overijssel",
     "cafe":34,
     "geolocatie": [52.25289,6.15552],
     "image": "icon-stone-house",
@@ -159,16 +167,17 @@ var hotspots = [
         "groen": 5,
         "connectiviteit": 4,
         "hipheid": 3
-    }
+    },
+    "tekst": "Rustig en hip is het hier zeker bij het oudste stenen huis van Nederland. Het onderste gedeelte is gebouwd in het jaar 900 en het rest van het pand in 1130. Behoorlijk knap hoe de mensen vroeger al zo'n huis konden bouwen. De Proosdij zoals het gebouw heet staat in Deventer (Overijssel) en wordt tot op de dag van vandaag bewoond."
   },
   {
-    "plaats":"de nieuwste molen",
+    "plaats":"De Nieuwste Molen",
     "decibel":73,
     "wifi":15,
     "bereik":5,
     "foursquare":10,
     "bevolkingsdichtheid":4385,
-    "postcode" : 3111,
+    "postcode" : "Doeleplein 6, 3111 PA, Schiedam, Zuid-Holland",
     "cafe":55,
     "geolocatie": [51.91696,4.39882],
     "image": "icon-windmill",
@@ -177,6 +186,7 @@ var hotspots = [
         "groen": 4,
         "connectiviteit": 2,
         "hipheid": 2
-    }
+    },
+    "tekst": "De Kameel is de naam van de nieuwste graanmolen van Nederland. In Schiedam (Zuid-Holland) staat deze graanmolen. In 2010 is de bouw afgerond. De graanmolen heeft de functie van een korenmolen en electriciteit. De graanmolen heeft als bestemming om graan te gaan vermalen en dit op vrijwillige basis. In het donker is de graanmolen prachtig verlicht en is het zeker de moeite waard om even een bezoekje aan te plegen. Het enige probleem dat je er tegen zou komen is dat je er niet naar binnen mag, maar er zijn genoeg molens in Nederland waar dit natuurlijk wel kan."
   }
 ]

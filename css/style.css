@@ -311,8 +311,9 @@ html, body {
   /* line 77, ../sass/_detail.scss */
   #detail .text {
     color: #666666;
-    margin-top: 7px; }
-  /* line 82, ../sass/_detail.scss */
+    margin-top: 7px;
+    margin-right: 50%; }
+  /* line 83, ../sass/_detail.scss */
   #detail .icon-large {
     background-image: url("../assets/icon-tree.svg");
     background-size: contain;

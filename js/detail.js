@@ -31,10 +31,10 @@
 		detail.$.find('h3').html(lidwoord + ' <span>' + plaats + '</span> van Nederland');
 
 		//addres
-		// detail.$.find('.adres .text').text(object.adres);
+		detail.$.find('.adres .text').text(object.postcode);
 
 		//text
-		// detail.$.find('div.text').text(object.text);
+		detail.$.find('div.text').text(object.tekst);
 
 		//image
 		detail.$.find('.icon-large').css('background-image', 'url(assets/' + object.image + '.svg)');
