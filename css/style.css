@@ -309,11 +309,12 @@ html, body {
       color: #62c715;
       text-transform: lowercase; }
   /* line 77, ../sass/_detail.scss */
-  #detail .text {
+  #detail div.text {
     color: #666666;
     margin-top: 7px;
-    margin-right: 50%; }
-  /* line 83, ../sass/_detail.scss */
+    margin-right: 50%;
+    line-height: 1.7em; }
+  /* line 84, ../sass/_detail.scss */
   #detail .icon-large {
     background-image: url("../assets/icon-tree.svg");
     background-size: contain;
@@ -375,7 +376,7 @@ html, body {
   float: left;
   padding: 25px;
   padding-top: 10px;
-  line-height: 14px;
+  line-height: 1.7em;
   border-top: 25px black solid;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
